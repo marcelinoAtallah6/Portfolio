@@ -9,7 +9,8 @@ body {
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  font-family: 'Ink Free'  ;
+  font-family:  'Open Sans',sans-serif;
+  background-color: #0e0e0e;
 }
 
 
@@ -130,7 +131,6 @@ a .fa-lg {
 
 .homeDiv .myNameDiv  #myName {
   cursor: pointer;
-  color: #000000 ;
   text-align: right;
   font-weight: 700;
   font-size: 60px;
@@ -214,8 +214,8 @@ footer {
   height: 35px;
   border-radius: 50%;
   background: transparent;
-  border: 1px dashed #07090c;
-  color: #07090c;
+  border: 1px dashed #ffffff;
+  color: #ffffff;
   margin: 10px;
   justify-content: space-evenly;
   flex-direction: column-reverse;
@@ -412,7 +412,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-content: space-around;
-
 } 
 
 .aboutSection { 
