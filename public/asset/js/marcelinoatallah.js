@@ -7,6 +7,30 @@ const navbar = document.getElementsByClassName("navbar")[0];
 const header = document.getElementsByClassName("header")[0];
 
 
+
+
+window.onload = function () {
+  Particles.init({
+    selector: ".background"
+  });
+};
+const particles = Particles.init({
+  selector: ".background",
+  color: ["#3399ff", "#000000", "#1300FF"],
+  connectParticles: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      options: {
+        color: ["#000000", "#3399ff", "#1300FF"],
+        maxParticles: 43,
+        connectParticles: false
+      }
+    }
+  ]
+});
+
+
 $(document).ready(function(){
     $(".navbar .nav-link,.btn-component ").on('click', function(event) {
 
@@ -52,104 +76,6 @@ $(window).on("load", function() {
     });
 });
 
-
-// // google maps
-// function initMap() {
-// // Styles a map in night mode.
-//     var map = new google.maps.Map(document.getElementById('map'), {
-//         center: {lat: 40.674, lng: -73.945},
-//         zoom: 12,
-//         scrollwheel:  false,
-//         navigationControl: false,
-//         mapTypeControl: false,
-//         scaleControl: false,
-//       styles: [
-//         {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-//         {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-//         {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-//         {
-//           featureType: 'administrative.locality',
-//           elementType: 'labels.text.fill',
-//           stylers: [{color: '#d59563'}]
-//         },
-//         {
-//           featureType: 'poi',
-//           elementType: 'labels.text.fill',
-//           stylers: [{color: '#d59563'}]
-//         },
-//         {
-//           featureType: 'poi.park',
-//           elementType: 'geometry',
-//           stylers: [{color: '#263c3f'}]
-//         },
-//         {
-//           featureType: 'poi.park',
-//           elementType: 'labels.text.fill',
-//           stylers: [{color: '#6b9a76'}]
-//         },
-//         {
-//           featureType: 'road',
-//           elementType: 'geometry',
-//           stylers: [{color: '#38414e'}]
-//         },
-//         {
-//           featureType: 'road',
-//           elementType: 'geometry.stroke',
-//           stylers: [{color: '#212a37'}]
-//         },
-//         {
-//           featureType: 'road',
-//           elementType: 'labels.text.fill',
-//           stylers: [{color: '#9ca5b3'}]
-//         },
-//         {
-//           featureType: 'road.highway',
-//           elementType: 'geometry',
-//           stylers: [{color: '#746855'}]
-//         },
-//         {
-//           featureType: 'road.highway',
-//           elementType: 'geometry.stroke',
-//           stylers: [{color: '#1f2835'}]
-//         },
-//         {
-//           featureType: 'road.highway',
-//           elementType: 'labels.text.fill',
-//           stylers: [{color: '#f3d19c'}]
-//         },
-//         {
-//           featureType: 'transit',
-//           elementType: 'geometry',
-//           stylers: [{color: '#2f3948'}]
-//         },
-//         {
-//           featureType: 'transit.station',
-//           elementType: 'labels.text.fill',
-//           stylers: [{color: '#d59563'}]
-//         },
-//         {
-//           featureType: 'water',
-//           elementType: 'geometry',
-//           stylers: [{color: '#17263c'}]
-//         },
-//         {
-//           featureType: 'water',
-//           elementType: 'labels.text.fill',
-//           stylers: [{color: '#515c6d'}]
-//         },
-//         {
-//           featureType: 'water',
-//           elementType: 'labels.text.stroke',
-//           stylers: [{color: '#17263c'}]
-//         }
-//       ]
-//     });
-// }
-
-
-
-
-
   function setTheme() {    switch (theme) {
       case "light":
         setLight();
@@ -161,16 +87,25 @@ $(window).on("load", function() {
         break;
     }
   }
+  
   function setLight() {
-    document.body.style="background-color: var(--light);transition: 0.5s;"
+    document.body.style="background-color: var(--light);transition: 0.5s;color:#212529;"
     navbar.classList.remove("bg-dark");
     navbar.classList.add("bg-white");
     header.classList.remove("withoutOpacity");
     header.classList.add("withOpacity");
     container.classList.remove("shadow-dark");
+   
     $(".header-content").css("color","#fff");
     $(".text-light").css("color","#f8f9fa","!important");
-
+    $(".brand-img").css("border"," 10px solid white")
+    $(".nav-link").css("color","rgba(0, 0, 0, 0.8)")
+    $("p").css("color","#444")
+    $("span").css("color","#343a40")
+    $(".info").css("color","#6c757d")
+    $(".card").css("background-color","#fff")
+    $(".card").css("border","1px solid rgba(0, 0, 0, 0.125)")
+    $("hr").css("border-top","1px solid rgba(0, 0, 0, 0.1)")
     setTimeout(() => {
       container.classList.add("shadow-light");
       themeIcon.classList.remove("change");
@@ -178,8 +113,9 @@ $(window).on("load", function() {
     themeIcon.classList.add("change");
     themeIcon.src = sun;
   }
+
   function setDark() {
-    document.body.style="background-color: var(--dark);transition: 0.5s;"
+    document.body.style="background-color: var(--dark);transition: 0.5s;color:#fff;"
     navbar.classList.remove("bg-white");
     navbar.classList.add("bg-dark");
     $(".header-content ").css("color","#000000")
@@ -187,6 +123,17 @@ $(window).on("load", function() {
     header.classList.remove("withOpacity");
     header.classList.add("withoutOpacity");
     container.classList.remove("shadow-light");
+    $(".brand-img").css("border"," 10px solid #212529")
+    $(".nav-link").css("color","#fff")
+    $("p").css("color","#fff")
+    $("span").css("color","#fff")
+    $("span").css("opacity","1","!important");
+    $(".info").css("color","#fff")
+    $(".info").css("opacity","0.7")
+    $(".card").css("background-color","inherit")
+    $(".card").css("border","1px solid #fff")
+    $("hr").css("border-top","1px solid #fff")
+    
     setTimeout(() => {
       container.classList.add("shadow-dark");
       themeIcon.classList.remove("change");

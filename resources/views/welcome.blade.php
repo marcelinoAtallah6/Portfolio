@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with marcelinoatallah landing page.">
     <meta name="author" content="Devcrud">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
     <title>Marcelino Atallah</title>
     <!-- font icons -->
     <link rel="stylesheet" href="{{url('asset/vendors/themify-icons/css/themify-icons.css')}}">
@@ -79,8 +80,11 @@
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Who am I ?</h3>
                 <span class="line mb-5"></span>
-                <h5 class="mb-3">A Weadverb Designer / Developer Located In Our Lovely Earth</h5>
-                <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit.sit amet, Qui deserunt consequatur fugit repellendusillo voluptas?</p>
+                <h5 class="mb-3">Intermediate Software Developer</h5>
+                <p class="mt-20">I am Marcelino Atallah lived in zouk mosbeh , lebanon studied at AUL university Kaslik having the bachelor degree in computer science.</p>
+               
+                <h5 class="mb-3">Career Objective</h5>
+                <p class="mt-20">Secure a challenging position in a reputable organization while expanding my learning experiences,Knowledge amount and skills value.</p>
                 <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
             </div>
             <div class="col-lg-4 about-card">
@@ -107,8 +111,8 @@
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>UX Design</h6>
-                        <p class="subtitle"> exercitat Repellendus,  corrupt.</p>
+                        <h6>Design</h6>
+                        <p class="subtitle">Bootstrap,Css,scss.</p>
                         <hr>
                     </div>
                 </div>
@@ -116,15 +120,23 @@
                     <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Web Development</h6>
-                        <p class="subtitle">Lorem ipsum dolor sit consectetur.</p>
+                        <p class="subtitle">Laravel,Php,Html,Css,JavaSript.</p>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Digital Marketing</h6>
-                        <p class="subtitle">voluptate commodi illo voluptatib.</p>
+                        <h6>Web Application</h6>
+                        <p class="subtitle">Java,struts,oracle</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Window  Application</h6>
+                        <p class="subtitle">Python</p>
                         <hr>
                     </div>
                 </div>
@@ -134,6 +146,7 @@
 
     <!--Resume Section-->
     <section class="section" id="resume">
+    <canvas class="background"></canvas>
         <div class="container">
             <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
             <div class="row">
@@ -146,17 +159,17 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6 class="title text-danger">2017 - Present</h6>
-                            <P>UX Developer</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <h6 class="title text-danger">2020 - Present</h6>
+                            <P>Valoores Jdeideh</P>
+                            <P class="subtitle">Secure a challenging position in a r eputablereputable organization learning experiences,Knowledge amount and skills value.</P>
                             <hr>
-                            <h6 class="title text-danger">2016 - 2017</h6>
-                            <P>Front-end Developer</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <h6 class="title text-danger">2020 - Present</h6>
+                            <P>Freelance developer</P>
+                            <P class="subtitle">Secure a challenging position in a reputable organization while expanding my learning    my learning my learning expanding my learning experiences Secure a challenging position in a reputable organization  ,Knowledge amount and skills value.</P>
                             <hr>
-                            <h6 class="title text-danger">2015 - 2016</h6>
-                            <P>UX Designer</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <h6 class="title text-danger">2018 - 2018</h6>
+                            <P>Blc Bank</P>
+                            <P class="subtitle">Secure a challenging position in a reputable organization while expanding my learning experiences,Knowledge amount and skills value.</P>
                         </div>
                     </div>
                 </div>
@@ -169,17 +182,17 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6 class="title text-danger">2017 - Present</h6>
-                            <P>B.E Computer Engineering</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error corrupti recusandae obcaecati odit repellat ducimus cum, minus tempora aperiam at.</P>
+                            <h6 class="title text-danger">2015 - 22019</h6>
+                            <P>Bachelor in Computer Science</P>
+                            <P class="subtitle">Secure a challenging position in a r eputablereputable organization learning experiences,Knowledge amount and skills value</P>
                             <hr>
-                            <h6 class="title text-danger">2016 - 2017</h6>
-                            <P>Diploma in Computer Engineering</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, id officiis quas placeat quia voluptas dolorum rem animi nostrum quae.aliquid repudiandae saepe!.</P>
+                            <h6 class="title text-danger">2015 - 2019</h6>
+                            <P>Bachelor in Computer Science</P>
+                            <P class="subtitle">Secure a challenging position in a reputable organization while expanding my learning    my learning my learning expanding my learning experiences Secure a challenging position in a reputable organization  ,Knowledge amount and skills value..</P>
                             <hr>
-                            <h6 class="title text-danger">2015 - 2016</h6>
+                            <h6 class="title text-danger">2012 - 2015</h6>
                             <P>High School Degree</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <P class="subtitle">Secure a challenging position in a reputable organization while expanding my learning experiences,Knowledge amount and skills value.</P>
                             
                         </div>
                     </div>
@@ -209,15 +222,15 @@
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Laborum</h6>
+                            <h6>Oracle</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Tempora</h6>
+                            <h6>Python</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                     <div class="card">
                        <div class="card-header">
@@ -235,9 +248,9 @@
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Spanish</h6>
+                            <h6>Arabic</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 67%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width:100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
@@ -255,7 +268,7 @@
                             <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">500</h1>
+                            <h1 class="text-danger font-weight-bold font40">1k</h1>
                             <p class="text-light mb-1">Hours Worked</p>
                         </div>
                     </div>
@@ -266,7 +279,7 @@
                             <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">50K</h1>
+                            <h1 class="text-danger font-weight-bold font40">20</h1>
                             <p class="text-light mb-1">Project Finished</p>
                         </div>
                     </div>
@@ -277,7 +290,7 @@
                             <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">200K</h1>
+                            <h1 class="text-danger font-weight-bold font40">100</h1>
                             <p class="text-light mb-1">Happy Clients</p>
                         </div>
                     </div>
@@ -288,7 +301,7 @@
                             <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">2k</h1>
+                            <h1 class="text-danger font-weight-bold font40">1k</h1>
                             <p class="text-light mb-1">Coffee Drinked</p>
                         </div>
                     </div>
