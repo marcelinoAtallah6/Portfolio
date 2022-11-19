@@ -66,7 +66,7 @@
                         <a href="#portfolio" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#blog" class="nav-link">Blog</a>
+                        <a href="#status" class="nav-link">Status</a>
                     </li>
                     <li class="nav-item last-item">
                         <a href="#contact" class="nav-link">Contact</a>
@@ -120,23 +120,24 @@
                     <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Web Development</h6>
-                        <p class="subtitle">Laravel,Php,Html,Css,JavaSript.</p>
+                        <p class="subtitle">Laravel,Php,Html,Css,JavaSript<br>Python Django</p>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-1 text-danger pt-1"><i class="ti-desktop icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Web Application</h6>
-                        <p class="subtitle">Java,struts,oracle</p>
+                        <p class="subtitle">jsp,Java,oracle<br>Angular , spring boot</p>
+
                         <hr>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-1 text-danger pt-1"><i class="ti-microsoft icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Window  Application</h6>
-                        <p class="subtitle">Python</p>
+                        <p class="subtitle"> python eel  </p>
                         <hr>
                     </div>
                 </div>
@@ -146,7 +147,7 @@
 
     <!--Resume Section-->
     <section class="section" id="resume">
-    <canvas class="background"></canvas>
+     <canvas class="background"></canvas>
         <div class="container">
             <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
             <div class="row">
@@ -159,18 +160,45 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6 class="title text-danger">2020 - Present</h6>
-                            <P>Valoores Jdeideh</P>
-                            <P class="subtitle">Secure a challenging position in a r eputablereputable organization learning experiences,Knowledge amount and skills value.</P>
+                            <h6 class="title text-danger">02 February 2020 - Present</h6>
+                            <P><b>Intermediate Software Developer</b><br>Valoores Jdeideh Lebanon</P>
+                            <P class="subtitle"><b>1-</b>Web Applications:
+                                <ul>
+                                    <li>Maintenance</li>
+                                    <li>Applying new client requests</li>
+                                    <li>Generating reports</li>
+                                </ul>
+                                <b>2-</b>Project Management:
+                                <ul>
+                                    <li>Project Analysis</li>
+                                    <li>Data Modeling</li>
+                                    <li>Researching and developing with the DB Team a new database that will be used (Cassandra)</li>
+                                    <li>Manage team members</li>
+                                    <li>Data Modeling</li>
+                                    <li>Data Modeling</li>
+                                    <li>Data Modeling</li>
+
+                                </ul>
+                                <b>3-</b>Applications are developed using JSP, Java / Struts /myBatis, Html/Css/JS/JQuery<br>
+                                <b>4</b>-Develop an application from scratch using Angular framework, Spring boot, and Hibernate to map the Oracle Database<br>
+                                <b>5-</b>Train new employees<br>
+                            </P>
                             <hr>
-                            <h6 class="title text-danger">2020 - Present</h6>
+                            <h6 class="title text-danger">01 JANUARY 2021 - Present</h6>
                             <P>Freelance developer</P>
-                            <P class="subtitle">Secure a challenging position in a reputable organization while expanding my learning    my learning my learning expanding my learning experiences Secure a challenging position in a reputable organization  ,Knowledge amount and skills value.</P>
+                            <P class="subtitle"><b>1-</b>Web-based windows application as well as websites<br><b>2-</b>Some of the languages used are Python Eel and Python Django Framework</P>
                             <hr>
-                            <h6 class="title text-danger">2018 - 2018</h6>
-                            <P>Blc Bank</P>
-                            <P class="subtitle">Secure a challenging position in a reputable organization while expanding my learning experiences,Knowledge amount and skills value.</P>
-                        </div>
+                            <h6 class="title text-danger">18 JUNE 2018– 18 JULY 2018</h6>
+                            <P>INTERNSHIP,Blc Bank</P>
+                            <P class="subtitle">
+                                <b>1-</b>Database Modeling<br>
+                                <b>2-</b>Table and relation creation on SQL server<br>
+                                <b>3-</b>CRUD concept application on SQL server<br>
+                                <b>4-</b>Creating several applications using C#<br>
+                                <b>5-</b>Creating reports(.rdl) using SSRS-reporting platform<br>
+                                <b>6-</b>Creating queries on demand<br>
+                                <b>7-</b>Testing and debugging applications<br>
+                                <b>8-</b>Analyze and structuring applications                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -182,55 +210,19 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6 class="title text-danger">2015 - 22019</h6>
-                            <P>Bachelor in Computer Science</P>
-                            <P class="subtitle">Secure a challenging position in a r eputablereputable organization learning experiences,Knowledge amount and skills value</P>
-                            <hr>
                             <h6 class="title text-danger">2015 - 2019</h6>
-                            <P>Bachelor in Computer Science</P>
-                            <P class="subtitle">Secure a challenging position in a reputable organization while expanding my learning    my learning my learning expanding my learning experiences Secure a challenging position in a reputable organization  ,Knowledge amount and skills value..</P>
+                            <P>BACHELOR IN COMPUTER SCIENCE, AUL KASLIK ,LEBANON</P>
+                            <!-- <P class="subtitle">Secure a challenging position in a r eputablereputable organization learning experiences,Knowledge amount and skills value</P> -->
+                            <hr>
+                            <h6 class="title text-danger">2012 - 2015</h6>
+                            <P>SECONDARY STUDIES (SG) , LYCEE GEORGES FREM , JOUNIEH LEBANON</P>
+                            <!-- <P class="subtitle">Secure a challenging position in a reputable organization while expanding my learning    my learning my learning expanding my learning experiences Secure a challenging position in a reputable organization  ,Knowledge amount and skills value..</P>
                             <hr>
                             <h6 class="title text-danger">2012 - 2015</h6>
                             <P>High School Degree</P>
-                            <P class="subtitle">Secure a challenging position in a reputable organization while expanding my learning experiences,Knowledge amount and skills value.</P>
+                            <P class="subtitle">Secure a challenging position in a reputable organization while expanding my learning experiences,Knowledge amount and skills value.</P> -->
                             
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Skills</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body pb-2">
-                           <h6>hTL5 &amp; CSS3</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>JavaScript</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>PHP</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>SQL</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Oracle</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Python</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div> 
                     </div>
                     <div class="card">
                        <div class="card-header">
@@ -254,12 +246,129 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">ACTIVITIES</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>All kind of sports </h6>
+                            <h6>photography</h6>
+                            <h6>camping</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Html5 &amp; CSS3</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>JavaScript &amp; JQuery</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>PHP</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SQL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Oracle</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Python</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <h6>Java</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Struts FrameWork</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>myBatis</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>JSP</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Angular</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Spring Boot</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Swagger</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Rest APIs</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>AWS</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Python EEL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Python Django</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Hibernate</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Cassandra</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        
+                            <h6>Bootstrap</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>GitHub  &amp; SVN</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>C#</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                        </div> 
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section bg-dark text-center">
+    <section class="section bg-dark text-center" id="status">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-6 col-lg-3">
@@ -268,7 +377,7 @@
                             <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">1k</h1>
+                            <h1 class="text-danger font-weight-bold font40">10k</h1>
                             <p class="text-light mb-1">Hours Worked</p>
                         </div>
                     </div>
@@ -279,7 +388,7 @@
                             <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">20</h1>
+                            <h1 class="text-danger font-weight-bold font40">10</h1>
                             <p class="text-light mb-1">Project Finished</p>
                         </div>
                     </div>
@@ -290,7 +399,7 @@
                             <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">100</h1>
+                            <h1 class="text-danger font-weight-bold font40">20</h1>
                             <p class="text-light mb-1">Happy Clients</p>
                         </div>
                     </div>
@@ -310,7 +419,7 @@
         </div>
     </section>
 
-    <section class="section" id="service">
+    <!-- <section class="section" id="service">
         <div class="container">
             <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
             <div class="row">
@@ -382,7 +491,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- <section class="section bg-custom-gray" id="price">
         <div class="container">
@@ -650,7 +759,7 @@
     </section>
     <!-- End of portfolio section -->
 
-    <section class="section" id="blog">
+    <!-- <section class="section" id="blog">
         <div class="container">
             <h2 class="mb-5">Latest <span class="text-danger">News</span></h2>
             <div class="row">
@@ -674,9 +783,7 @@
 
                         <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
                     </div>
-                </div><!-- end of blog wrapper -->
-
-                <!-- blog-card -->
+                </div>
                 <div class="blog-card">
                     <div class="img-holder">
                         <img src="{{url('asset/imgs/blog2.jpg')}}" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
@@ -694,8 +801,7 @@
 
                         <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
                     </div>
-                </div><!-- end of blog wrapper -->
-                <!-- blog-card -->
+                </div>
                 <div class="blog-card">
                     <div class="img-holder">
                         <img src="{{url('asset/imgs/blog3.jpg')}}" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
@@ -713,11 +819,10 @@
 
                         <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
                     </div>
-                </div><!-- end of blog wrapper -->
-
+                </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <div class="section contact" id="contact">
         

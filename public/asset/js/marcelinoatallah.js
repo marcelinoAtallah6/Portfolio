@@ -106,6 +106,8 @@ $(window).on("load", function() {
     $(".card").css("background-color","#fff")
     $(".card").css("border","1px solid rgba(0, 0, 0, 0.125)")
     $("hr").css("border-top","1px solid rgba(0, 0, 0, 0.1)")
+    $(".card .card-body ").css("color","#6c757d")
+
     setTimeout(() => {
       container.classList.add("shadow-light");
       themeIcon.classList.remove("change");
@@ -133,6 +135,7 @@ $(window).on("load", function() {
     $(".card").css("background-color","inherit")
     $(".card").css("border","1px solid #fff")
     $("hr").css("border-top","1px solid #fff")
+    $(".card .card-body ").css("color","#fff")
     
     setTimeout(() => {
       container.classList.add("shadow-dark");
