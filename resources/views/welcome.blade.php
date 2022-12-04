@@ -22,11 +22,12 @@
 
         <div class="container">
             <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/marcelino.atallah.1/" target="_blank"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <!-- <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li> -->
+                <!-- <li class="social-item"><a class="social-link text-light" href="#" target="_blank"><i class="ti-google" aria-hidden="true"></i></a></li> -->
+                <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/marcelino.atallah/"  target="_blank"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://github.com/marcelinoAtallah6"  target="_blank"><i class="ti-github" aria-hidden="true" ></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/marcelino-atallah-68ba12182/"  target="_blank"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
 
             </ul>  
             <div class="header-content">
@@ -85,7 +86,7 @@
                
                 <h5 class="mb-3">Career Objective</h5>
                 <p class="mt-20">Secure a challenging position in a reputable organization while expanding my learning experiences,Knowledge amount and skills value.</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i><a  href="{{url('asset/docs/Marcelino Atallah.docx')}}" download>Download My CV</button>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -94,15 +95,15 @@
                     <li><span>Birthdate</span> : 04/06/1997</li>
                     <li><span>Email</span> : marcelino_atallah@hotmail.com</li>
                     <li><span>Phone</span> : + (961) 7 86 94 57</li>
-                    <li><span>Linked In</span> : linkedin.com/in/marcelino-atallah-68ba12182 </li>
                     <li><span>Address</span> :  Zouk Mosebh , Lebanon.</li> 
                 </ul>
                 <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/marcelino.atallah.1/" target="_blank"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <!-- <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li> -->
+                <!-- <li class="social-item"><a class="social-link text-light" href="#" target="_blank"><i class="ti-google" aria-hidden="true"></i></a></li> -->
+                <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/marcelino.atallah/"  target="_blank"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://github.com/marcelinoAtallah6"  target="_blank"><i class="ti-github" aria-hidden="true" ></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/marcelino-atallah-68ba12182/"  target="_blank"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
                 </ul>  
             </div>
             <div class="col-lg-4 about-card">
@@ -876,11 +877,12 @@
                             </div>
                         </div>
                         <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/marcelino.atallah.1/" target="_blank"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                        <!-- <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li> -->
+                        <!-- <li class="social-item"><a class="social-link text-light" href="#" target="_blank"><i class="ti-google" aria-hidden="true"></i></a></li> -->
+                        <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/marcelino.atallah/"  target="_blank"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                        <li class="social-item"><a class="social-link text-light" href="https://github.com/marcelinoAtallah6"  target="_blank"><i class="ti-github" aria-hidden="true" ></i></a></li>
+                        <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/marcelino-atallah-68ba12182/"  target="_blank"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
                         </ul> 
                     </div>
                 </div>
